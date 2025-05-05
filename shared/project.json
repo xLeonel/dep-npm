@@ -7,13 +7,20 @@
   "projectType": "library",
   "targets": {
     "build": {
-      "executor": "@nrwl/js:tsc",
+      "executor": "@nrwl/angular:package",
       "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
       "options": {
-        "outputPath": "dist/shared",
-        "tsConfig": "shared/tsconfig.lib.json",
-        "main": "shared/src/index.ts"
-      }
+        "project": "shared/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "shared/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "shared/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
     },
     "test": {
       "executor": "@nrwl/jest:jest",
@@ -21,6 +28,12 @@
       "options": {
         "jestConfig": "shared/jest.config.ts",
         "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
       }
     },
     "lint": {
