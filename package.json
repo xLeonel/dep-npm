@@ -8,7 +8,6 @@
     "lint": "nx lint",
     "release": "nx release"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~15.2.0",
     "@angular/common": "~15.2.0",
