@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/xLeonel/dep-npm/compare/v2.1.0...v2.2.0) (2025-05-06)
+
+
+### Features
+
+* version stable ([ec9dfd6](https://github.com/xLeonel/dep-npm/commit/ec9dfd6bffa0bfc9c16c3dde408c61449bf55396))
+
 # [2.1.0](https://github.com/xLeonel/dep-npm/compare/v2.0.0...v2.1.0) (2025-05-06)
 
 
