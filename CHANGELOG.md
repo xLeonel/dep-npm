@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/xLeonel/dep-npm/compare/v1.0.0...v1.1.0) (2025-05-06)
+
+
+### Features
+
+* release tagg ([17cfede](https://github.com/xLeonel/dep-npm/commit/17cfedee7680566222664db4cf62307a38cdd3e9))
+
 # 1.0.0 (2025-05-06)
 
 
