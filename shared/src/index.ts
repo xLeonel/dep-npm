@@ -1,10 +1,6 @@
 export * from './lib/shared.module';
 
-// estavel
-// estavel2
-// estavel2
-// estavel2
-// estavel2
-// estavel2
-// estavel2
-// estavel2
+
+
+// alphand beta are used for the shared module
+// mergiado
