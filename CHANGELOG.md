@@ -1,3 +1,12 @@
+# [2.1.0-alpha.1](https://github.com/xLeonel/dep-npm/compare/v2.0.0...v2.1.0-alpha.1) (2025-05-06)
+
+
+### Features
+
+* alphha ([a343d71](https://github.com/xLeonel/dep-npm/commit/a343d712cb174a2d3bdaebc6e6c22c19f76ca5d8))
+* piloto alpha ([bb76180](https://github.com/xLeonel/dep-npm/commit/bb76180fe092302a65603a41d4aefad00c8388fa))
+* teste ([31d0859](https://github.com/xLeonel/dep-npm/commit/31d0859b3636bf87f3d570479413e34d2ec5ecac))
+
 # [1.1.0](https://github.com/xLeonel/dep-npm/compare/v1.0.0...v1.1.0) (2025-05-06)
 
 
