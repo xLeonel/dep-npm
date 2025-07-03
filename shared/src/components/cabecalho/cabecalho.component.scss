@@ -1,0 +1,22 @@
+.cabecalho-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.cabecalho-img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.cabecalho-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cabecalho-texto.centralizado {
+  justify-content: center;
+  height: 64px;
+}

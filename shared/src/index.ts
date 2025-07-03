@@ -1,6 +1,3 @@
-export * from './lib/shared.module';
-
-
-
-// alphand beta are used for the shared module
-// mergiado
+export * from './components/botao/botao.module';
+export * from './components/cabecalho/cabecalho.module';
+export * from './components/rodape/rodape.module';

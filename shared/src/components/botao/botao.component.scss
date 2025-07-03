@@ -1,0 +1,20 @@
+button {
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.primario {
+  background: orange;
+  color: #fff;
+  border-color: orange;
+}
+
+.secundario {
+  background: #fff;
+  color: #1976d2;
+  border-color: #1976d2;
+}
