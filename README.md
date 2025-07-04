@@ -19,3 +19,11 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+
+# Configuracao storybook
+
+1. npm install -D @nrwl/storybook@15 @storybook/angular@7 @storybook/addon-essentials@7
+2. nx g @nrwl/storybook:configuration --tsConfiguration=true
+3. remove react dependencie e storybook que nao seja a @storybook/angular @storybook/addon-essentials
+4. incluir os script de build e run no package.json 

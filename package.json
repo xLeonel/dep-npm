@@ -6,7 +6,9 @@
     "build": "nx build",
     "test": "nx test",
     "lint": "nx lint",
-    "release": "nx release"
+    "release": "nx release",
+    "storybook": "nx storybook",
+    "build-storybook": "nx build-storybook"
   },
   "private": true,
   "dependencies": {
@@ -38,6 +40,7 @@
     "@nrwl/jest": "15.9.7",
     "@nrwl/js": "15.9.7",
     "@nrwl/linter": "15.9.7",
+    "@nrwl/storybook": "^15.9.7",
     "@nrwl/web": "15.9.7",
     "@nrwl/workspace": "15.9.7",
     "@schematics/angular": "~15.2.0",
@@ -45,6 +48,8 @@
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^9.2.6",
     "@semantic-release/npm": "^11.0.3",
+    "@storybook/addon-essentials": "^7.6.20",
+    "@storybook/angular": "^7.6.20",
     "@types/jest": "^29.4.0",
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
