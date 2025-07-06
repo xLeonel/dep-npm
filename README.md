@@ -27,3 +27,17 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 2. nx g @nrwl/storybook:configuration --tsConfiguration=true
 3. remove react dependencie e storybook que nao seja a @storybook/angular @storybook/addon-essentials
 4. incluir os script de build e run no package.json 
+
+# Configuracao docs
+
+1. npm i -D @storybook/addon-docs@7
+2. ajustar main.ts do .storybook
+
+    stories: [
+    '../docs/**/*.mdx', =====> INCLUIR ESSA LINHHA
+    '../**/*.stories.@(js|jsx|ts|tsx)'
+  ],
+  addons: [
+    '@storybook/addon-essentials',
+    '@storybook/addon-docs' =====> INCLUIR ESSA LINHHA
+  ],

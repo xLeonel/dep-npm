@@ -1,0 +1,44 @@
+import { Canvas, Meta } from '@storybook/blocks';
+
+import * as BotaoStories from './botao.stories';
+
+<Meta title="Components/Botao" of={BotaoStories} />
+
+# Botao Component
+
+Um botão é um elemento clicável que aciona uma ação ou evento. 
+
+Use botões para ações primárias e secundárias em sua interface.
+
+## Casos de uso
+
+<table style={{ width: '100%', borderCollapse: 'collapse' }}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: 'left', padding: '12px' }}>Nome</th>
+      <th style={{ textAlign: 'left', padding: '12px' }}>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style={{ padding: '12px' }}>[Primário](#primario)</td>
+      <td style={{ padding: '12px' }}>Utilizado para ações primárias do usuário</td>
+    </tr>
+    <tr>
+      <td style={{ padding: '12px' }}>[Secundário](#secundario)</td>
+      <td style={{ padding: '12px' }}>Utilizado para ações secundárias</td>
+    </tr>
+  </tbody>
+</table>
+
+## <span id="primario">Primário</span>
+
+O botão primário deve ser usado para destacar a ação principal em uma tela.
+
+<Canvas of={BotaoStories.BotaoPrimario} />
+
+## <span id="secundario">Secundário</span>
+
+O botão secundário é indicado para ações alternativas ou menos importantes.
+
+<Canvas of={BotaoStories.BotaoSecundario} />
