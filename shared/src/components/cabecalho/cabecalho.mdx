@@ -1,0 +1,44 @@
+import { Canvas, Meta } from '@storybook/blocks';
+
+import * as CabecalhoStories from './cabecalho.stories';
+
+<Meta title="Components/Cabecalho" of={CabecalhoStories} />
+
+# Cabecalho Component
+
+Um cabeçalho é um elemento que representa a parte superior de uma página ou seção. 
+
+Use cabeçalhos para exibir títulos e informações importantes.
+
+## Casos de uso
+
+<table style={{ width: '100%', borderCollapse: 'collapse' }}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: 'left', padding: '12px' }}>Nome</th>
+      <th style={{ textAlign: 'left', padding: '12px' }}>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style={{ padding: '12px' }}>[Default](#primario)</td>
+      <td style={{ padding: '12px' }}>Utilizado para exibir títulos e subtitulos</td>
+    </tr>
+    <tr>
+      <td style={{ padding: '12px' }}>[Titulo](#secundario)</td>
+      <td style={{ padding: '12px' }}>Utilizado para exibir o título principal</td>
+    </tr>
+  </tbody>
+</table>
+
+## <span id="Default">Primário</span>
+
+O cabeçalho primário deve ser usado para destacar a ação principal em uma tela.
+
+<Canvas of={CabecalhoStories.CabecalhoDefault} />
+
+## <span id="Titulo">Secundário</span>
+
+O cabeçalho 'Titulo' é indicado para ações alternativas ou menos importantes.
+
+<Canvas of={CabecalhoStories.CabecalhoTitulo} />
