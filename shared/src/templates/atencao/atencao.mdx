@@ -1,0 +1,38 @@
+import { Canvas, Meta } from '@storybook/blocks';
+
+import * as AtencaoStories from './atencao.stories';
+
+<Meta title="Components/Atencao" of={AtencaoStories} />
+
+# Atencao Template
+
+Um cabeçalho é um elemento que representa a parte superior de uma página ou seção. 
+
+Use cabeçalhos para exibir títulos e informações importantes.
+
+## Casos de uso
+
+<table style={{ width: '100%', borderCollapse: 'collapse' }}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: 'left', padding: '12px' }}>Nome</th>
+      <th style={{ textAlign: 'left', padding: '12px' }}>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style={{ padding: '12px' }}>[Default](#primario)</td>
+      <td style={{ padding: '12px' }}>Utilizado para exibir títulos e subtitulos</td>
+    </tr>
+    <tr>
+      <td style={{ padding: '12px' }}>[Titulo](#secundario)</td>
+      <td style={{ padding: '12px' }}>Utilizado para exibir o título principal</td>
+    </tr>
+  </tbody>
+</table>
+
+## <span>Primário</span>
+
+O cabeçalho primário deve ser usado para destacar a ação principal em uma tela.
+
+<Canvas of={AtencaoStories.Base} />
